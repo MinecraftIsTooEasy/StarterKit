@@ -3,6 +3,7 @@ package com.huanglanmu.sk;
 import net.minecraft.Item;
 import net.minecraft.ItemStack;
 import net.minecraft.ServerPlayer;
+import net.minecraft.Enchantment;
 import moddedmite.rustedironcore.api.event.Handlers;
 import moddedmite.rustedironcore.api.event.events.PlayerLoggedInEvent;
 import moddedmite.rustedironcore.api.event.listener.IPlayerEventListener;
@@ -36,6 +37,13 @@ public class SKEventListener extends Handlers {
 
                 ItemStack  knifeRustedIronStack = new ItemStack(Item.knifeRustedIron, 1, 0);
                 player.inventory.addItemStackToInventory(knifeRustedIronStack);
+
+                ItemStack  bowStack = new ItemStack(Item.bow, 1, 0);
+                bowStack.addEnchantment(Enchantment.quickness, 1);
+                player.inventory.addItemStackToInventory(bowStack);
+
+                ItemStack  arrowRustedIronStack = new ItemStack(Item.arrowRustedIron, 6, 0);
+                player.inventory.addItemStackToInventory(arrowRustedIronStack);
             }
         });
     }

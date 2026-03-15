@@ -1,5 +1,1 @@
-# Start With Torch Mod for MITE (FML-3.X)
-
-## Features
-
-* Add a low quality torch.
+进游戏给皮革胸甲，皮革头盔，8个面包，一碗沙拉，一个锈铁小刀，一把敏捷1的弓，6支锈铁剑
