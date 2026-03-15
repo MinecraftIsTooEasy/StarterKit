@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "starter_kit",
+  "version": "1.0.0",
+  "depends": {
+    "fishmodloader": ">=3.0.0",
+    "rusted_iron_core": ">=1.0.0"
+  },
+  "environment": "*",
+  "name": "StarterKit",
+  "description": "",
+  "authors": [
+    "huanglanmu"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.huanglanmu.sk.StarterKit"
+    ]
+  },
+  "mixins": [
+    "sk.mixins.json"
+  ]
+}
